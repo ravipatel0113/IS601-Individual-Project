@@ -9,9 +9,6 @@ export default function AboutMePost() {
           <link rel="icon" href="/favicon.ico" />
     </Head>
     <h1>About Me</h1>
-    <h2>
-        <Link href="/">Back to home</Link>
-    </h2>
     </>
     );
   }
