@@ -43,7 +43,7 @@ export default function Footer() {
         <Link href="/posts/about-me">
             <FontAwesomeIcon icon={faUser} /> About Me
         </Link>
-        <Link href='/posts/projects'>
+        <Link href='/posts/project'>
             <FontAwesomeIcon icon={faBook} /> Projects
         </Link>
         </div>
