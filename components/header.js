@@ -14,7 +14,7 @@ export default function Header() {
 
         <Link href="/posts/about-me" className={mainStyles.links}> About Me </Link>
 
-        <Link href="/" className={mainStyles.links}> Projects </Link>
+        <Link href="/posts/project" className={mainStyles.links}> Projects </Link>
 
         <Link href="/" className={mainStyles.links}> Passion </Link>
         
