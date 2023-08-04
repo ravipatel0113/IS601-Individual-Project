@@ -159,6 +159,53 @@
     letter-spacing: 0.3px;
 }
 
+.h1_project{
+    color: #000;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.githublink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.cellImage{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #14C9C9;
+}
+
+.projectImage{
+    margin-right: 5px;
+    /* border: 5px solid #000; */
+    padding-bottom: 10px;
+}
+
+.marketImage{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #14C9C9;
+}
+
 /* Footer Section */
 
 .footer{
