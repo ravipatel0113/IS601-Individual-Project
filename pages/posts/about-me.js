@@ -72,7 +72,30 @@ export default function AboutMePost() {
                         </ul>
                   </div>
             </article>
+            <article>
+                  <h3 className= {aboutStyle.jobTitle}><u> Data Analyst | Evernorth Health Services (Cigna) | Morris Plains, NJ, USA </u></h3>
+                  
+                  <div className= {aboutStyle.desc}>
+                        <h4> 06/2021 - 01/2023 </h4>
 
+                        <p> Part of a RFSO team helping in providing data project execution and operations support. Work primarily on Alteryx to think strategically about data and maintaining the correct flow of data. Work under the agile methodology, supporting the development team to forecast future data manipulations due to change in Medicare/Medicaid. Campion to drive projects from inception to delivery by working with senior leader and business partners.</p>
+                        
+                        <i> Key Accomplishments:</i>
+
+                        <ul>
+                        <li> Work within Alteryx and Python to extract, manipulate and format data from various client sources. </li>
+                        <li> Automation of report generation process using Alteryx Server API keys, creating single platform for all types of reports process handling. </li>
+                        <li> Write SQL to extract, manipulate and format data. </li>
+                        <li> Use Python along with Alteryx to process the data. </li>
+                        <li> Formatting the Excel Templates according to the business partner’s requirements. (e.g., xlsx, xlsm, xlsb) </li>
+                        <li> Automate various rule changes due to changes in Government Healthcare Programs. </li>
+                        <li> Mapping the documents together, and molding the data according to the business requirements. </li>
+                        <li> Perform Regression Testing on the documents, and QA testing other developers code process. </li>
+                        <li> Handling the database and the file creating process, making the process ready for the release to the Production. </li>
+                        <li> Enhancement to the Drug lists process improve its efficiency. </li>   
+                        </ul>
+                  </div>
+                </article>
       </section>
 
     </main>
