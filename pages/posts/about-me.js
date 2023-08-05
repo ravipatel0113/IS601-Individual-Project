@@ -30,7 +30,7 @@ export default function AboutMePost() {
 
     </Head>
     <main>
-      <h1 className= {aboutStyle.h1_about}>About Me</h1>
+      {/* <h1 className= {aboutStyle.h1_about}>About Me</h1> */}
       <section>
             <h2 className= {aboutStyle.h2}>Skills</h2>
             <div className= {aboutStyle.skills}>
@@ -60,16 +60,11 @@ export default function AboutMePost() {
                   <div className= {aboutStyle.desc}>
                         <h4> 03/2023 - Present </h4>
 
-                        <p> Part of an Internal Audit to bring a systematic, disciplined approach to evaluate and improve the effectiveness of risk management. Work primarily on Alteryx for understanding the dataset supporting the auditors review the policies and rules efficiently. Work with the independent team reporting directly to the board of committee. Act as a third line of defense. Further reviewing the dataset quarterly and projecting the result in the form of visualization, creating dashboard using Power BI. </p>
-
-                        <i> Key Accomplishments: </i>
-
-                        <ul>
-                        <li> Work within Alteryx and Python to manipulate and re-format the data for various comparisons. </li>
-                        <li> Automation of Audit process by generating data files containing mis-match and error in the policies. </li>
-                        <li> Use Power BI for generating Dashboards and visual effect representing Audit progress ever quarter. </li>
-                        <li> Working with various file formats for extraction and generating datasets. (i.e., PDF, EXCEL, TXT, WORD, etc.) </li>
-                        </ul>
+                        <p> Part of an Internal Audit to bring a systematic, disciplined approach to evaluate and improve the effectiveness of risk management. 
+                              Work primarily on Alteryx for understanding the dataset supporting the auditors review the policies and rules efficiently. 
+                              Work with the independent team reporting directly to the board of committee. 
+                              Act as a third line of defense. 
+                              Further reviewing the dataset quarterly and projecting the result in the form of visualization, creating dashboard using Power BI. </p>
                   </div>
             </article>
             <article>
@@ -78,26 +73,73 @@ export default function AboutMePost() {
                   <div className= {aboutStyle.desc}>
                         <h4> 06/2021 - 01/2023 </h4>
 
-                        <p> Part of a RFSO team helping in providing data project execution and operations support. Work primarily on Alteryx to think strategically about data and maintaining the correct flow of data. Work under the agile methodology, supporting the development team to forecast future data manipulations due to change in Medicare/Medicaid. Campion to drive projects from inception to delivery by working with senior leader and business partners.</p>
-                        
-                        <i> Key Accomplishments:</i>
-
-                        <ul>
-                        <li> Work within Alteryx and Python to extract, manipulate and format data from various client sources. </li>
-                        <li> Automation of report generation process using Alteryx Server API keys, creating single platform for all types of reports process handling. </li>
-                        <li> Write SQL to extract, manipulate and format data. </li>
-                        <li> Use Python along with Alteryx to process the data. </li>
-                        <li> Formatting the Excel Templates according to the business partner’s requirements. (e.g., xlsx, xlsm, xlsb) </li>
-                        <li> Automate various rule changes due to changes in Government Healthcare Programs. </li>
-                        <li> Mapping the documents together, and molding the data according to the business requirements. </li>
-                        <li> Perform Regression Testing on the documents, and QA testing other developers code process. </li>
-                        <li> Handling the database and the file creating process, making the process ready for the release to the Production. </li>
-                        <li> Enhancement to the Drug lists process improve its efficiency. </li>   
-                        </ul>
+                        <p> Part of a RFSO team helping in providing data project execution and operations support. 
+                              Work primarily on Alteryx to think strategically about data and maintaining the correct flow of data. 
+                              Work under the agile methodology, supporting the development team to forecast future data manipulations due to change in Medicare/Medicaid. 
+                              Campion to drive projects from inception to delivery by working with senior leader and business partners.</p>
                   </div>
                 </article>
       </section>
+      <section>
+            <h2 className= {aboutStyle.h2}>Passion</h2>
+            <div className= {aboutStyle.passion}>
+                  <div className= {aboutStyle.passionDesc}>
+                        <h3 className= {aboutStyle.passionTitle}>
+                              Passionate Data-Driven Problem Solvers
+                        </h3>
+                        <p>Passionate about using data to solve complex problems. 
+                              Ability to demonstrate a systematic and disciplined approach to evaluate and improve risk management in their work as an Internal Auditor.</p>
+                  </div>
 
+                  
+                  <div className= {aboutStyle.passionDesc}>
+                        <h3 className= {aboutStyle.passionTitle}>
+                              Proficient in Tools and Technologies
+                        </h3>
+                        <p>Enthusiastic about working with various data analytics tools and technologies. Leverage tools to manipulate, extract, and analyze data efficiently.</p>
+                  </div>
+
+                  
+                  <div className= {aboutStyle.passionDesc}>
+                        <h3 className= {aboutStyle.passionTitle}>
+                              Continuous Learner and Adaptable
+                        </h3>
+                        <p>Open to learning and adapting to new technologies and methodologies.</p>
+                  </div>
+
+                  
+                  <div className= {aboutStyle.passionDesc}>
+                        <h3 className= {aboutStyle.passionTitle}>
+                              Skilled in Visual Storytelling
+                        </h3>
+                        <p>Passion for data visualization is evident through their use of Power BI.</p>
+                  </div>
+
+                  
+                  <div className= {aboutStyle.passionDesc}>
+                        <h3 className= {aboutStyle.passionTitle}>
+                              Attentive to Detail
+                        </h3>
+                        <p>A strong attention to detail, ensuring data accuracy and reliability.</p>
+                  </div>
+
+                  
+                  <div className= {aboutStyle.passionDesc}>
+                        <h3 className= {aboutStyle.passionTitle}>
+                              Driven for Improvement
+                        </h3>
+                        <p>A proactive approach to continually improving processes and systems.</p>
+                  </div>
+
+                  
+                  <div className= {aboutStyle.passionDesc}>
+                        <h3 className= {aboutStyle.passionTitle}>
+                              Collaborative Team Player
+                        </h3>
+                        <p>Work effectively within teams to achieve common goals.</p>
+                  </div>
+            </div>
+      </section>
     </main>
     </>
     );

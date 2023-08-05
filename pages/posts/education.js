@@ -24,10 +24,6 @@ export default function AboutMePost() {
     </Head>
     <main>
         <section>
-            <h2 className= {educationStyle.h2}>Passion</h2>
-            
-        </section>
-        <section>
                 <h2 className= {educationStyle.h2}>Education</h2>
                 <article>
                     <h3 className= {educationStyle.eduTitle}><u> Masters in Data Science | New Jersey Institute of Technology, Newark, NJ, USA</u></h3>
