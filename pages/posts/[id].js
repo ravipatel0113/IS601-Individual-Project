@@ -1,24 +1,11 @@
 import Layout from '../../components/layout';
-import Head from 'next/head';
-
-import utilStyles from '../../styles/main.module.css';
 
 
 
 
-export default function Post({ postData }) {
+export default function Post() {
     return (
       <Layout>
-        <Head>
-          <title>{postData.title}</title>
-        </Head>
-        <article>
-          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-          <div className={utilStyles.lightText}>
-            <Date dateString={postData.date} />
-          </div>
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        </article>
       </Layout>
     );
 }
