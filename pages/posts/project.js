@@ -46,19 +46,19 @@ export default function ProjectPost() {
             <div className= {mainStyles.cellImage}>
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/human_classification_cells.png'
+                    src= '/images/human_classification_cells.png'
                     width = {500}
                     height = {500} 
                 />
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/human_classification_cells_graph.png'
+                    src= '/images/human_classification_cells_graph.png'
                     width = {500}
                     height = {500} 
                 />
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/human_classification_cells_prediction.png'
+                    src= '/images/human_classification_cells_prediction.png'
                     width = {500}
                     height = {500} 
                 />
@@ -82,19 +82,19 @@ export default function ProjectPost() {
             <div className= {mainStyles.marketImage}>
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/heatmap_01_Feb_2020.png'
+                    src= '/images/heatmap_01_Feb_2020.png'
                     width = {984}
                     height = {385} 
                 />
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/Market_job_status.png'
+                    src= '/images/Market_job_status.png'
                     width = {865}
                     height = {382} 
                 />
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/Average_cost_of_living_vs_City.png'
+                    src= '/images/Average_cost_of_living_vs_City.png'
                     width = {984}
                     height = {408} 
                 />
@@ -120,19 +120,19 @@ export default function ProjectPost() {
             <div className= {mainStyles.marketImage}>
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/treemap.jpg'
+                    src= '/images/treemap.jpg'
                     width = {987}
                     height = {598} 
                 />
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/GS_predictor.png'
+                    src= '/images/GS_predictor.png'
                     width = {940}
                     height = {450} 
                 />
                 <Image
                     className= {mainStyles.projectImage}
-                    src= '/../public/images/GS_candlestick.png'
+                    src= '/images/GS_candlestick.png'
                     width = {940}
                     height = {450} 
                 />
