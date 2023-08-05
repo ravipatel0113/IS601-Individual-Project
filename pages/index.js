@@ -39,6 +39,8 @@ export default function Home() {
                 <Image 
                   class= {mainStyles.heroimage} 
                   src= "/images/profile.jpg" 
+                  alt="Profile Picture"
+                  priority='True'
                   width= {394}
                   height= {394}/>
           </div>
