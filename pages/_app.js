@@ -6,10 +6,10 @@ import Layout from '../components/layout';
 import TagManager from "react-gtm-module";
 import React, {useEffect} from "react";
 
-const g_id = process.env.G_ID_KEY;
+const gId = process.env.G_ID_KEY;
 
 const tagManagerArgs = {
-  gtmId: g_id,
+  gtmId: 'G-NYKJ1X5BEP',
 }
 const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
