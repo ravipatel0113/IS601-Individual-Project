@@ -1,0 +1,65 @@
+.h1_about{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 3.146px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.skills{
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 50px;
+    flex-wrap: wrap; */
+    display: grid;
+    /* Apply Grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* Create as many columns as fit into the container */
+    gap: calc(.5 * 1.5rem);
+    /* Add space between grid items */
+    margin-bottom: 1rem;
+    /* Add space below the list */
+    align-items: center;
+    justify-items: center;
+    font-size: 50px;
+    background: linear-gradient(360deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
+    /* border-bottom: 4px solid #14C9C9; */
+    border: 4px solid #14C9C9;
+}
+
+.jobTitle{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.desc{
+    color: #FFF;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    border-bottom: 4px solid #14C9C9;
+}
