@@ -16,7 +16,7 @@ export default function Header() {
 
         <Link href="/posts/project" className={mainStyles.links}> Projects </Link>
 
-        
+        <Link href="/posts/education" className={mainStyles.links}> Education </Link>
         </div>
 
         </section>

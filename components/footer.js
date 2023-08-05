@@ -2,7 +2,7 @@ import mainStyles from '../styles/main.module.css'
 import Link from 'next/link';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faBook, faBullhorn, faEnvelope, faPhone, faStore } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faBook, faBullhorn, faEnvelope, faPhone, faStore, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import { useState } from "react";
@@ -44,7 +44,10 @@ export default function Footer() {
             <FontAwesomeIcon icon={faUser} /> About Me
         </Link>
         <Link href='/posts/project'>
-            <FontAwesomeIcon icon={faBook} /> Projects
+            <FontAwesomeIcon icon={faProjectDiagram} /> Projects
+        </Link>
+        <Link href='/posts/education'>
+            <FontAwesomeIcon icon={faBook} /> Education
         </Link>
         </div>
 
