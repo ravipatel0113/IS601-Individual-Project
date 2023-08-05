@@ -24,7 +24,7 @@
 }
 
 .homelink{
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 50px;
     font-style: normal;
@@ -36,7 +36,7 @@
 }
   
 .links {
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 30px;
     font-style: normal;
@@ -46,7 +46,7 @@
     text-transform: capitalize;
     text-decoration: none;
     padding-right: 15px;
-    border-right: 3px solid #000;
+    border-right: 3px solid #FFF;
 }
 
 .links:hover{
@@ -89,7 +89,7 @@
 }
 
 .h2{
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 25.405px;
     font-style: normal;
@@ -100,7 +100,7 @@
 }
 
 .h1_2{
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 40px;
     font-style: normal;
@@ -116,7 +116,7 @@
 }
 
 .subtext{
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -148,7 +148,7 @@
 }
 
 .bio{
-    color: #000;
+    color: #FFF;
     margin-top: 30px;
     display: flex;
     text-align: left;
@@ -160,7 +160,7 @@
 }
 
 .h1_project{
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 50px;
     font-style: normal;
@@ -170,6 +170,7 @@
 }
 
 .githublink{
+    color: #FFF;
     display: flex;
     flex-direction: row;
     justify-content: center;
