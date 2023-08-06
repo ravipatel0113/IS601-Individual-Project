@@ -24,6 +24,12 @@ export default function AboutMePost() {
               `,
               }}
       />
+      <Script strategy='afterinteractive' id='mcjs'
+              dangerouslySetInnerHTML={{__html: `!function(c,h,i,m,p)
+              {m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)
+              }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3d0b19ed396d6468d588f214e/38a8859cf31651e09e04538dd.js");`,
+              }} 
+      />
       <link rel="icon" href="/favicon.ico" />
       {/* <Script data-main="scripts/main" src="scripts/require.js"></Script> */}
       {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-yUdhdVwK+j3gE1+0fShz3t9Qm1HF/PeJT4sOoCEXAHNRSF2uJo4o0Cds5d8tRdT2W9/vd0k21f6CzOKAbeqzQ==" crossOrigin="anonymous" referrerPolicy="no-referrer" /> */}
