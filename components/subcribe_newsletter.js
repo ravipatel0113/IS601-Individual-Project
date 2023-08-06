@@ -1,8 +1,7 @@
 import { useRef } from 'react';
-import fetchPonyfill from 'fetch-ponyfill'
 
 import mainStyles from '../styles/main.module.css'
-export default function NewsLetterSignUpForm(usePonyfill = true) {
+export default function NewsLetterSignUpForm() {
   const inputRef = useRef(null);
 
   const subscribeUser = async (e) => {
@@ -10,7 +9,7 @@ export default function NewsLetterSignUpForm(usePonyfill = true) {
 
     // this is where your mailchimp request is made
 
-    const res = await (usePonyfill ? fetchPonyfill() : { fetch }).fetch('/api/subscribeUser', {
+    const res = await fetch(`${VERCEL_APP}api/subscribeUser`, {
       body: JSON.stringify({
         email: inputRef.current.value,
       }),
