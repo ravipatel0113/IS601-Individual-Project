@@ -20,6 +20,8 @@ export default function NewsLetterSignUpForm() {
 
       method: 'POST',
     });
+    const result = await res.json();
+    console.log(result);
   };
 
 return (
