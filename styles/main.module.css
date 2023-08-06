@@ -233,17 +233,17 @@
 .footerlink {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
 .footerlink a{
     color: #000000;
     font-family: Outfit;
-    font-size: 20px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 51px;
     text-decoration: none;
 }
 /* Form Input Section */
