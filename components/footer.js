@@ -70,25 +70,26 @@ export default function Footer() {
                 <Link href="/cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" ></Link>
             <div id="mc_embed_signup">
                 <form action="https://njit.us9.list-manage.com/subscribe/post?u=3d0b19ed396d6468d588f214e&amp;id=366234b116&amp;v_id=4559&amp;f_id=001013e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                    <div id="mc_embed_signup_scroll"><h2>Subscribe</h2>
+                    <div id="mc_embed_signup_scroll">
                         
+                        <h2 className={mainStyles.h2}>Subscribe</h2>
                         <div className="mc-field-group">
                             <label for="mce-EMAIL">
                                 Email Address:
                             </label>
-                            <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required="" >
+                            <input type="email" name="EMAIL" className={mainStyles.emailaddress} id="mce-EMAIL" required="" >
 
                             </input>
                             <span id="mce-EMAIL-HELPERTEXT" className="helper_text">
 
                             </span>
                         </div>
-                        <div id="mergeRow-gdpr" className="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
+                        <div id="mergeRow-gdpr">
                             <div className="content__gdpr">
                                 <p>Please select all the ways you would like to hear from Ravi:</p>
-                                <fieldset className="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+                                <fieldset name="interestgroup_field">
                                     <label className="checkbox subfield" for="gdpr40083">
-                                        <input type="checkbox" id="gdpr_40083" name="gdpr[40083]" className="gdpr" ></input>
+                                        <input type="checkbox" id="gdpr_40083" name="gdpr[40083]" ></input>
                                         <span>Email</span>
                                     </label>
                                 </fieldset>
@@ -100,9 +101,9 @@ export default function Footer() {
                         <div className="response" id="mce-success-response" ></div>
                     </div>
                 
-                    <div className="optionalParent">
-                        <div className="clear foot">
-                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button"></input>
+                    <div>   
+                        <div>
+                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" className={mainStyles.footertext}></input>
                             <p><a href="http://eepurl.com/iwPweY" title="Mailchimp - email marketing made easy and fun"></a></p>
                                 
                         </div>
