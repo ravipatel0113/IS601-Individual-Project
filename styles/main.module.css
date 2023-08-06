@@ -252,7 +252,19 @@
     display: flex;
     justify-content: center;
     border: 4px solid #14C9C9;
-    background: linear-gradient(314deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
+    background: linear-gradient(314deg, #69aff0 0%, #e6cfcf 52.03%, #B86ADF 100%);
+}
+
+.h2_sub{
+    color: #000;
+    font-family: Poppins;
+    font-size: 25.405px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 9.146px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .subscribe{
@@ -262,7 +274,7 @@
 }
 
 .formText{
-    color: #FFF;
+    color: #000;
     display: flex;
     flex-direction: column;
     /* text-align: left; */
@@ -286,18 +298,18 @@
     width: 113px;
     flex-direction: column;
     flex-shrink: 0;
-    color: #FFF;
-    font-family: Outfit;
-    font-size: 16px;
+    color: #252525;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
     line-height: 31px;
     opacity: 1;
-    /* margin-bottom: 20px; */
-    margin-top: 0px;
+    margin-top: 5px;
     width: 315px;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .checkBox{
@@ -323,7 +335,7 @@
 
 
 input.footertext {
-    color: #FFF;
+    color: #000;
     /* sub header */
     font-family: Poppins;
     font-size: 15px;
