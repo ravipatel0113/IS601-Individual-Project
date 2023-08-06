@@ -9,7 +9,7 @@ export default function NewsLetterSignUpForm() {
 
     // this is where your mailchimp request is made
 
-    const res = await fetch(`${VERCEL_APP}api/subscribeUser`, {
+    const res = await fetch(`${process.env.VERCEL_APP}/api/subscribeUser`, {
       body: JSON.stringify({
         email: inputRef.current.value,
       }),
