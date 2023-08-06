@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faBook, faBullhorn, faEnvelope, faPhone, faStore, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-import NewsLetterSignUpForm from './Subcribe';
+import NewsLetterSignUpForm from './subcribe_newsletter';
 
 import { useState } from "react";
 export default function Footer() {
