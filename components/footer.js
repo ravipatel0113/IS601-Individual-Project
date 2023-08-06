@@ -66,7 +66,7 @@ export default function Footer() {
             <a href="#"><FontAwesomeIcon icon={faPhone} /> Contact</a>
 
         </div>
-        <div id="mc_embed_shell">
+        {/* <div id="mc_embed_shell">
                 <Link href="/cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" ></Link>
             <div id="mc_embed_signup">
                 <form action="https://njit.us9.list-manage.com/subscribe/post?u=3d0b19ed396d6468d588f214e&amp;id=366234b116&amp;v_id=4559&amp;f_id=001013e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
@@ -111,7 +111,7 @@ export default function Footer() {
                 </div>
             </form>
             </div>
-            </div>
+            </div> */}
 
         {/* <!-- Form Section --> */}
         {/* <div> */}
