@@ -43,7 +43,7 @@ export default function Home() {
 
           <div className= {mainStyles.hero}>
                 <Image 
-                  class= {mainStyles.heroimage} 
+                  className= {mainStyles.heroimage} 
                   src= "/images/profile.jpg" 
                   alt="Profile Picture"
                   priority='True'
