@@ -64,7 +64,7 @@ export default function Home() {
                 <form action="https://njit.us9.list-manage.com/subscribe/post?u=3d0b19ed396d6468d588f214e&amp;id=366234b116&amp;v_id=4559&amp;f_id=001013e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                     <div id="mc_embed_signup_scroll" className={mainStyles.subscribe}>
                         
-                        <h2 className={mainStyles.h2}>Subscribe</h2>
+                        <h2 className={mainStyles.h2_sub}>Subscribe</h2>
                         <div className= {mainStyles.formText}>
                             <label for="mce-EMAIL">
                                 Email Address:
