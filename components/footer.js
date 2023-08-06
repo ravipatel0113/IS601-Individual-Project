@@ -5,33 +5,35 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faBook, faBullhorn, faEnvelope, faPhone, faStore, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
+import NewsLetterSignUpForm from './Subcribe';
+
 import { useState } from "react";
 export default function Footer() {
-    const [state, setState] = useState(0);
-    const [errorMsg, setErrorMsg] = useState("");
-    // 0 - initial , 1 - loading, 2 - success, 2 - error
-    const subscribe = async (e) => {
-    e.preventDefault();
+    // const [state, setState] = useState(0);
+    // const [errorMsg, setErrorMsg] = useState("");
+    // // 0 - initial , 1 - loading, 2 - success, 2 - error
+    // const subscribe = async (e) => {
+    // e.preventDefault();
 
-    setState(1);
-    setErrorMsg("");
-    console.log(e.target[0].value);
-    try {
-      const res = await fetch("/api/newsletter", {
-        method: "POST",
-        body: e.target[0].value,
-      });
+    // setState(1);
+    // setErrorMsg("");
+    // console.log(e.target[0].value);
+    // try {
+    //   const res = await fetch("/api/newsletter", {
+    //     method: "POST",
+    //     body: e.target[0].value,
+    //   });
 
-      const data = await res.json();
-      if (data.error !== null) {
-        throw data.error;
-      }
-      setState(2);
-    } catch (e) {
-      setErrorMsg(e);
-      setState(3);
-    }
-    };
+    //   const data = await res.json();
+    //   if (data.error !== null) {
+    //     throw data.error;
+    //   }
+    //   setState(2);
+    // } catch (e) {
+    //   setErrorMsg(e);
+    //   setState(3);
+    // }
+    // };
     return (
     <>
         <footer className={mainStyles.footer}>
@@ -65,9 +67,10 @@ export default function Footer() {
             <a href="#"><FontAwesomeIcon icon={faPhone} /> Contact</a>
 
         </div>
-
+        <NewsLetterSignUpForm />
         {/* <!-- Form Section --> */}
-        {state == 2 ? (
+        {/* <div> */}
+        {/* {state == 2 ? (
         <p className="font-medium mt-4 text-xl text-green-800">
             Thanks for subscribing, you will receive mail once we launch our
             website.
@@ -83,7 +86,8 @@ export default function Footer() {
                     )
                 }
             </form>
-        )}
+        )} */}
+        {/* </div> */}
         </footer>
     </>
     );
