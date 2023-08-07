@@ -8,27 +8,26 @@ export default function ProjectPost() {
     return (
     <>
     <Head>
-    <title>Project</title>
-    <Script strategy='afterinteractive' 
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.G_ID_KEY}`} />
-    <Script strategy='afterinteractive'
-        dangerouslySetInnerHTML={{ __html : `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        <title>Project</title>
+        <meta
+          name="description"
+          content="Welcome to my Portfolio."
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <Script strategy='afterinteractive' 
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.G_ID_KEY}`} />
+        <Script strategy='afterinteractive'
+            dangerouslySetInnerHTML={{ __html : `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', '${process.env.G_ID_KEY}', {
-            page_path: window.location.pathname,
-        });
-        `,
-        }}
-    />
-    <Script strategy='afterinteractive' id='mcjs'
-              dangerouslySetInnerHTML={{__html: `!function(c,h,i,m,p)
-              {m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)
-              }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3d0b19ed396d6468d588f214e/38a8859cf31651e09e04538dd.js");`,
-              }} 
-    />
-    <link rel="icon" href="/favicon.ico" />
+            gtag('config', '${process.env.G_ID_KEY}', {
+                page_path: window.location.pathname,
+            });
+            `,
+            }}
+        />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
     </Head>
     <main>
         <h1 className= {mainStyles.h1_project}>My Project</h1>
