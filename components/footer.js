@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faBook, faBullhorn, faEnvelope, faPhone, faStore, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 import { useState } from "react";
@@ -55,84 +55,10 @@ export default function Footer() {
         <div className={mainStyles.footerlink}>
 
             <a href="mailto:example@example.com"><FontAwesomeIcon icon={faEnvelope} /> Email</a>
-            <a href="https://www.linkedin.com/"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
-            <a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} /> Instagram</a>
+            <a href="https://www.linkedin.com/in/ravi-patel-0113"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
+            <a href="https://github.com/ravipatel0113"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
             <a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /> Twitter</a>
         </div>
-
-        <div className={mainStyles.footerlink}>
-
-            <a href="#"><FontAwesomeIcon icon={faStore} /> Market</a>
-            <a href="#"><FontAwesomeIcon icon={faPhone} /> Contact</a>
-
-        </div>
-        {/* <div id="mc_embed_shell">
-                <Link href="/cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" ></Link>
-            <div id="mc_embed_signup">
-                <form action="https://njit.us9.list-manage.com/subscribe/post?u=3d0b19ed396d6468d588f214e&amp;id=366234b116&amp;v_id=4559&amp;f_id=001013e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                    <div id="mc_embed_signup_scroll">
-                        
-                        <h2 className={mainStyles.h2}>Subscribe</h2>
-                        <div className="mc-field-group">
-                            <label for="mce-EMAIL">
-                                Email Address:
-                            </label>
-                            <input type="email" name="EMAIL" className={mainStyles.emailaddress} id="mce-EMAIL" required="" >
-
-                            </input>
-                            <span id="mce-EMAIL-HELPERTEXT" className="helper_text">
-
-                            </span>
-                        </div>
-                        <div id="mergeRow-gdpr">
-                            <div className="content__gdpr">
-                                <p>Please select all the ways you would like to hear from Ravi:</p>
-                                <fieldset name="interestgroup_field">
-                                    <label className="checkbox subfield" for="gdpr40083">
-                                        <input type="checkbox" id="gdpr_40083" name="gdpr[40083]" ></input>
-                                        <span>Email</span>
-                                    </label>
-                                </fieldset>
-                            </div>
-                                
-                        </div>
-                    <div id="mce-responses" className="clear foot">
-                        <div className="response" id="mce-error-response" ></div>
-                        <div className="response" id="mce-success-response" ></div>
-                    </div>
-                
-                    <div>   
-                        <div>
-                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" className={mainStyles.footertext}></input>
-                            <p><a href="http://eepurl.com/iwPweY" title="Mailchimp - email marketing made easy and fun"></a></p>
-                                
-                        </div>
-                    </div>
-                </div>
-            </form>
-            </div>
-            </div> */}
-
-        {/* <!-- Form Section --> */}
-        {/* <div> */}
-        {/* {state == 2 ? (
-        <p className="font-medium mt-4 text-xl text-green-800">
-            Thanks for subscribing, you will receive mail once we launch our
-            website.
-        </p>
-        ) : (
-            <form onSubmit={subscribe} className={mainStyles.newsletterform}>
-                <input type = "email" placeholder="Email Address" className={mainStyles.emailaddress} required></input>
-                <button type="submit" className={mainStyles.footertext}>Subscribe</button>
-                {state === 3 ? (
-                    <p className="text-red-500 mt-3">{errorMsg}</p>
-                    ) : (
-                        ""
-                    )
-                }
-            </form>
-        )} */}
-        {/* </div> */}
         </footer>
     </>
     );

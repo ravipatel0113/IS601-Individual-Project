@@ -232,7 +232,8 @@
   
 .footerlink {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 44px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
