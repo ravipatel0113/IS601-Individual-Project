@@ -6,27 +6,26 @@ export default function Education() {
     return (
     <>
     <Head>
-      <title>Education</title>
-      <Script strategy='afterinteractive' 
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.G_ID_KEY}`} />
-      <Script strategy='afterinteractive'
-            dangerouslySetInnerHTML={{ __html : `window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', '${process.env.G_ID_KEY}', {
-                  page_path: window.location.pathname,
-              });
-              `,
-              }}
-      />
-      <Script strategy='afterinteractive' id='mcjs'
-              dangerouslySetInnerHTML={{__html: `!function(c,h,i,m,p)
-              {m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)
-              }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3d0b19ed396d6468d588f214e/38a8859cf31651e09e04538dd.js");`,
-              }} 
+        <title>Education</title>
+        <meta
+            name="description"
+            content="Welcome to my Portfolio."
         />
-      <link rel="icon" href="/favicon.ico" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <Script strategy='afterinteractive' 
+                src={`https://www.googletagmanager.com/gtag/js?id=${process.env.G_ID_KEY}`} />
+        <Script strategy='afterinteractive'
+                dangerouslySetInnerHTML={{ __html : `window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', '${process.env.G_ID_KEY}', {
+                    page_path: window.location.pathname,
+                });
+                `,
+                }}
+        />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
     </Head>
     <main>
         <section>

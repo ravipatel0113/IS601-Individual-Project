@@ -7,7 +7,7 @@ import Header from './header';
 import Footer from './footer';
 
 const name = 'Ravikumar Patel';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'MY Portfolio';
 
 export default function Layout({ children, home }) {
   return (
